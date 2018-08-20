@@ -193,6 +193,16 @@ h1, h2, h3, h4, h5, h6, figure {
       color: #7e0606;
       position: relative; }
 
+/* #writtenLogo {
+  color: #7e0606;
+  text-transform: uppercase;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+} */
+
 #colorlib-counter,
 .colorlib-bg {
   background-size: cover;
