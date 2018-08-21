@@ -571,12 +571,12 @@ h1, h2, h3, h4, h5, h6, figure {
       line-height: 40px;
       color: #31486f; }
   .services:hover, .services:focus {
-    background: #31486f;
+    background: #7e0606;
     color: rgba(255, 255, 255, 0.7); }
     .services:hover h3 a, .services:focus h3 a {
       color: #fff; }
     .services:hover .icon i, .services:focus .icon i {
-      color: #bea34d; }
+      color: #fff; }
 
 .colorlib-social-icons {
   margin: 0;
@@ -1111,9 +1111,9 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none !important; }
 
 .btn-primary {
-  background: #bea34d;
-  color: #fff;
-  border: 2px solid #bea34d; }
+  background: #fff;
+  color: #7e0606;
+  border: 2px solid #fff; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #c5ad60 !important;
     border-color: #c5ad60 !important; }
