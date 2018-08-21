@@ -43,12 +43,12 @@ body {
       content: ""; }
 
 a {
-  color: #bea34d;
+  color: #828282;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #bea34d;
+    color: #7e0606;
     outline: none;
     text-decoration: none; }
 
@@ -63,15 +63,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #bea34d; }
+  background: #7e0606; }
 
 ::-moz-selection {
   color: #fff;
-  background: #bea34d; }
+  background: #7e0606; }
 
 ::selection {
   color: #fff;
-  background: #bea34d; }
+  background: #7e0606; }
 
 .colorlib-nav .top-menu {
   padding: 28px 0; }
@@ -594,7 +594,7 @@ h1, h2, h3, h4, h5, h6, figure {
       display: inline-block;
       zoom: 1;
       *display: inline;
-      color: #bea34d;
+      color: #7e0606;
       padding-left: 10px;
       padding-right: 10px; }
       .colorlib-social-icons li a i {
@@ -609,7 +609,7 @@ h1, h2, h3, h4, h5, h6, figure {
     list-style: none;
     position: relative; }
     .colorlib-contact-info ul li:before {
-      color: #bea34d;
+      color: #7e0606;
       position: absolute;
       left: 0;
       top: .05em;
