@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 05/01/2018 02:43
+  	Creation date: 27/08/2018 17:48
   	*/
 
 @font-face {
@@ -24,20 +24,32 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-    /*font-size: 20px;*/
-    font-style: normal;
-    /*margin-left: 20px;*/
+        /* font-size: 20px; */
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-police-badge:before { content: "\f100"; }
-.flaticon-jury:before { content: "\f101"; }
-.flaticon-lawyer-1:before { content: "\f102"; }
-.flaticon-siren:before { content: "\f103"; }
-.flaticon-lawyer:before { content: "\f104"; }
-.flaticon-policeman:before { content: "\f105"; }
-.flaticon-handcuffs:before { content: "\f106"; }
-.flaticon-padlock:before { content: "\f107"; }
-.flaticon-courthouse:before { content: "\f108"; }
-.flaticon-folder:before { content: "\f109"; }
-.flaticon-libra:before { content: "\f10a"; }
-.flaticon-act:before { content: "\f10b"; }
+.flaticon-warehouse:before { content: "\f100"; }
+.flaticon-money:before { content: "\f101"; }
+.flaticon-monitor:before { content: "\f102"; }
+.flaticon-support:before { content: "\f103"; }
+.flaticon-gear:before { content: "\f104"; }
+.flaticon-action:before { content: "\f105"; }
+.flaticon-process:before { content: "\f106"; }
+.flaticon-conveyor:before { content: "\f107"; }
+.flaticon-truck:before { content: "\f108"; }
+.flaticon-box:before { content: "\f109"; }
+.flaticon-order:before { content: "\f10a"; }
+.flaticon-product:before { content: "\f10b"; }
+.flaticon-money-1:before { content: "\f10c"; }
+.flaticon-money-3:before { content: "\f10d"; }
+.flaticon-money-2:before { content: "\f10e"; }
+.flaticon-money-4:before { content: "\f10f"; }
+.flaticon-adjust:before { content: "\f110"; }
+.flaticon-brain:before { content: "\f111"; }
+.flaticon-progress:before { content: "\f112"; }
+.flaticon-graph:before { content: "\f113"; }
+.flaticon-profit:before { content: "\f114"; }
+.flaticon-seo-and-web:before { content: "\f115"; }
+.flaticon-graph-1:before { content: "\f116"; }
+.flaticon-graphic:before { content: "\f117"; }
