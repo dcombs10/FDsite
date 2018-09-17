@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6, figure {
           border: none !important;
           font-size: 18px; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
-            background: #bea34d !important;
+            background: #7e0606 !important;
             -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
             -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
             box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important; }
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #colorlib-content .choose,
 #colorlib-consult .choose {
-  width: 50%;
+  width: 100%;
   padding: 40px 40px;
   display: block;
   text-align: center;}
