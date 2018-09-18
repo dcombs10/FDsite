@@ -563,7 +563,7 @@ h1, h2, h3, h4, h5, h6, figure {
       outline: none;
       -webkit-box-shadow: none;
       box-shadow: none;
-      border-color: #bea34d; }
+      border-color: #7e0606; }
 
 .progress-bar {
   background-color: #31486f !important;
@@ -1173,14 +1173,14 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #7e0606;
   border: 2px solid #fff; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #c5ad60 !important;
-    border-color: #c5ad60 !important; }
+    background: #7e0606 !important;
+    border-color: #7e0606 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #bea34d;
-    border: 2px solid #bea34d; }
+    color: #7e0606;
+    border: 2px solid #7e0606; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #bea34d;
+      background: #7e0606;
       color: #fff; }
 
 .btn-success {
