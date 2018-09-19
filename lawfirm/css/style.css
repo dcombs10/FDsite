@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
       height: 100px;
       font-size: 50px;
       color: #fff;
-      background: #bea34d;
+      background: #7e0606;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -814,7 +814,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #colorlib-started .btn {
     height: 54px;
     border: none !important;
-    background: #bea34d;
+    background: #7e0606;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -833,7 +833,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .blog-featured h2 a {
   color: #31486f; }
   .blog-featured h2 a:hover {
-    color: #bea34d; }
+    color: #7e0606; }
 
 .blog-entry {
   width: 100%;
@@ -851,7 +851,7 @@ h1, h2, h3, h4, h5, h6, figure {
     .blog-entry .desc h3 a {
       color: #31486f; }
       .blog-entry .desc h3 a:hover {
-        color: #bea34d; }
+        color: #7e0606; }
     .blog-entry .desc .meta {
       color: #999999;
       font-size: 16px;
@@ -891,7 +891,7 @@ h1, h2, h3, h4, h5, h6, figure {
         .colorlib-blog .blog-text span.comment a {
           color: rgba(0, 0, 0, 0.3); }
           .colorlib-blog .blog-text span.comment a i {
-            color: #bea34d;
+            color: #7e0606;
             padding-left: 7px; }
     .colorlib-blog .blog-text .meta {
       color: #b3b3b3;
@@ -1289,7 +1289,7 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #bea34d; }
+    border-color: #7e0606; }
 
 .row-pb-md {
   padding-bottom: 4em !important; }
