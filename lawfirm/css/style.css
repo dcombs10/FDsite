@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #colorlib-content .choose,
 #colorlib-consult .choose {
-  width: 50%;
+  width: 100%;
   padding: 40px 40px;
   display: block;
   text-align: center;}
