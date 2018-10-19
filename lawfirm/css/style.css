@@ -511,6 +511,11 @@ h1, h2, h3, h4, h5, h6, figure {
     padding-left: 10px;
 }
 
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
 .col-xs-15 {
   width: 20%;
   float: left;
