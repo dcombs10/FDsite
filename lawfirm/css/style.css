@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0; }
 
+#formHeader {
+  color: #fff;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #7e0606; }
@@ -542,6 +546,10 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+select {
+  overflow-y: auto;
+}
+
 #colorlib-content .choose-form,
 #colorlib-consult .choose-form {
   background: #31486f; 
@@ -568,7 +576,7 @@ h1, h2, h3, h4, h5, h6, figure {
       outline: none;
       -webkit-box-shadow: none;
       box-shadow: none;
-      border-color: #7e0606; }
+      border-color: #999900; }
 
 .progress-bar {
   background-color: #31486f !important;
@@ -1294,7 +1302,7 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #7e0606; }
+    border-color: #999900; }
 
 .row-pb-md {
   padding-bottom: 4em !important; }
@@ -1313,3 +1321,31 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+  /* Custom CSS */
+  /*  */
+  /*  */
+  /*  */
+
+  /* iframe classes */
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+  
+  /* 4x3 Aspect Ratio */
+  .iframe-container-4x3 {
+    padding-top: 75%;
+  }

@@ -50,532 +50,257 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	<!-- jQuery CDN to reuse 'header' and 'footer' partials -->
-	<script  src="https://code.jquery.com/jquery-3.3.1.min.js"
-	  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  			crossorigin="anonymous">
-	</script>
-
-	<!-- jQuery script to load 'header' and 'footer' partials -->
-	<script>
-		$(function() {
-			$("#footer").load("footer.html");
-		});
-	</script>
-
-
 	</head>
 	<body>
-		
+
 	<div class="colorlib-loader"></div>
 	
 	<div id="page">
-	<nav class="colorlib-nav" role="navigation">
-		<div class="top-menu">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div id="colorlib-logo"><a href="index.html">FirstDiscovery</a></div>
+						</div>
+						<div class="col-md-10 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li class="has-dropdown">
+									<a href="#services">Services</a>
+									<ul class="dropdown">
+										<li><a href="#services">Pricing Strategy</a></li>
+										<li><a href="#services">Supply Chain</a></li>
+										<li><a href="#services">Business Intelligence</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li class="btn-cta"><a href="contact.html"><span><strong>Contact Us Today</strong></span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<aside id="colorlib-hero" class="js-fullheight">
+			<div class="flexslider js-fullheight">
+				<ul class="slides">
+					<li style="background-image: url(images/ross-parmly-25230-unsplash.jpg);">
+						<div class="overlay-gradient"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+									<div class="slider-text-inner">
+										<h1>Applying Next Gen Analytics to Achieve New Heights</h1>
+											<h2>Costly Consulting Services Are Out. Targeted Analytics Strategies Are In.</h2>
+											
+											<!-- Button trigger modal for marketingVideo -->
+											<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#marketingVideo">
+												Learn More
+											</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<!-- Modal -->
+		<div id="marketingVideo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="marketingVideo" aria-hidden="true">
+			<div class="modal-dialog .modal-dialog-centered">
+				<div class="iframe-container">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K23bo7XnpVc" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		
+			<!-- 
+				<div class="iframe-container">
+					<iframe src="https://www.youtube.com/embed/K23bo7XnpVc"></iframe>
+				</div>
+			
+		</div> -->
+		
+		<!-- <div id="marketingVideo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="marketingVideo" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<a id="services"></a>
+		<div id="colorlib-practice">
 			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading">
+						<h2>Our Services</h2>
+						<p>
+							We're dedicated to providing high quality deliverables that drive results and meet our clients' needs. 
+						</p>
+					</div>
+				</div>
 				<div class="row">
-					<div class="col-md-2">
-						<div id="colorlib-logo"><a href="index.html">FirstDiscovery<!--<span>Analytics</span>--></a></div>
-					</div>
-					<div class="col-md-10 text-right menu-1">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li class="has-dropdown">
-								<a href="services.html">Services</a>
-								<ul class="dropdown">
-									<li><a href="pricing.html">Pricing Strategy</a></li>
-									<li><a href="#">Supply Chain & Logistics</a></li>
-									<li><a href="#">Analytics</a></li>
-									<li><a href="#">Business Intelligence</a></li>
-								</ul>
-							</li>
-							<li><a href="about.html">About</a></li>
-							<li class="btn-cta"><a href="contact.html"><span><strong>Contact Us Today</strong></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-
-	<aside id="colorlib-hero" class="js-fullheight">
-		<div class="flexslider js-fullheight">
-			<ul class="slides">
-		   	<li style="background-image: url(images/ross-parmly-25230-unsplash.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1>Applying Next Gen Analytics to Achieve New Heights</h1>
-									<h2>Costly Consulting Services Are Out. Targeted Analytics Strategies Are In.</h2>
-									<p><a class="btn btn-primary btn-sm" href="#">Learn More</a></p>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<!-- <li style="background-image: url(images/img_bg_2.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1>Your ultimate law &amp; legal Sulution</h1>
-									<h2>Visit our sites here! <a href="#" target="_blank">lawfirm.com</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="#">Make An Appointment</a></p>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/img_bg_3.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1>Defend Your Constitutional Right with Legal Help</h1>
-									<h2>Visit our sites here! <a href="#" target="_blank">lawfirm.com</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="#">Make An Appointment</a></p>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>		   	 -->
-		  	</ul>
-	  	</div>
-	</aside>
-	<!-- <div id="intro-bg">
-		<div class="container">
-			<div id="colorlib-intro">
-				<div class="third-col">
-					<span class="icon"><i class="icon-cog"></i></span>
-					<h2>Need Legal Services?</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, iure delectus. Ab nihil est ut quae, atque, maiores omnis eius laudantium cumque quidem deleniti alias labore iure nulla vitae odit.</p>
-				</div>
-				<div class="third-col third-col-color">
-					<span class="icon"><i class="icon-old-phone"></i></span>
-					<h2>Call now (+1) 0-123-789-4560</h2>
-					<h2>Email us @ <a href="#">lawfirm@info</a></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, iure delectus. Ab nihil est ut quae, atque,</p>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/img_bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="flaticon-lawyer-1"></i></span>
-					<span class="colorlib-counter js-counter" data-from="0" data-to="1539" data-speed="5000" data-refresh-interval="50"></span>
-					<span class="colorlib-counter-label">Qualified Lawyer</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="flaticon-courthouse"></i></span>
-					<span class="colorlib-counter js-counter" data-from="0" data-to="3653" data-speed="5000" data-refresh-interval="50"></span>
-					<span class="colorlib-counter-label">Trusted Clients</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="flaticon-libra"></i></span>
-					<span class="colorlib-counter js-counter" data-from="0" data-to="5987" data-speed="5000" data-refresh-interval="50"></span>
-					<span class="colorlib-counter-label">Successful Case</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="flaticon-police-badge"></i></span>
-					<span class="colorlib-counter js-counter" data-from="0" data-to="3999" data-speed="5000" data-refresh-interval="50"></span>
-					<span class="colorlib-counter-label">Honor &amp; Awards</span>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="colorlib-content">
-		<div class="video colorlib-video" style="background-image: url(images/video.jpg);">
-			<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
-			<div class="overlay"></div>
-		</div>
-		<div class="choose animate-box">
-			<div class="colorlib-heading">
-				<h2>30 Years of experienced serving a high quality services</h2>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-			</div>
-			<div class="progress">
-				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-				Adoption Law 50%
-				</div>
-			</div>
-			<div class="progress">
-				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-				Family Law 80%
-				</div>
-			</div>
-			<div class="progress">
-				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-				Real Estate Law 70%
-				</div>
-			</div>
-			<div class="progress">
-				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-				Personal Injury Law 40%
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<div id="colorlib-practice">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center colorlib-heading">
-					<h2>Our Services</h2>
-					<p>
-						We're dedicated to providing high quality deliverables that drive results and meet our clients' needs. 
-						<!-- Learn more about our specialities below. -->
-						<!-- Have a strategy or analytics need not mentioned below? Contact us to find out if we can solve your problem! -->
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 text-center animate-box">
-					<div class="services">
-						<span class="icon">
-							<i class="flaticon-money"></i>
-						</span>
-						<div class="desc">
-							<h3><a href="#">Pricing Strategy</a></h3>
-							<p>We leverage industry-leading pricing analytics to optimize top-line performance and accelerate organic growth.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="services">
-						<span class="icon">
-							<i class="flaticon-truck"></i>
-						</span>
-						<div class="desc">
-							<h3><a href="#">Supply Chain Logistics</a></h3>
-							<p>Our advanced SCMO services increase transparency and ensure fast time-to-value insights to help you manage your bottom line.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="services">
-						<span class="icon">
-							<i class="flaticon-seo-and-web"></i>
-						</span>
-						<div class="desc">
-							<h3><a href="#">Business Intelligence</a></h3>
-							<p>Our bespoke BI solutions are technology-agnostic and crafted for your business, ensuring you have the right tools to take action.</p>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="col-md-12 text-center animate-box">
-					<p><a class="btn btn-primary btn-lg btn-learn" href="#">View More <i class="icon-arrow-right"></i></a></p>
-				</div> -->
-			</div>
-		</div>
-	</div>
-
-	<!-- <div id="colorlib-started" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center colorlib-heading colorlib-heading2">
-					<h2>30 Years of Experienced in Various cases</h2>
-					<p>We help people effectively fight their offenders back and successfully defend their own stand!</p>
-					<p><a href="#" class="btn btn-primary btn-lg">Consultation</a></p>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	
-
-	<!-- <div id="colorlib-testimonial" class="colorlib-bg-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-					<h2>What are the clients says</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row animate-box">
-						<div class="owl-carousel owl-carousel-fullwidth">
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/user-1.jpg" alt="user">
-									</figure>
-									<span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
-									<blockquote>
-										<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-									</blockquote>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/user-1.jpg" alt="user">
-									</figure>
-									<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-									<blockquote>
-										<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-									</blockquote>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/user-1.jpg" alt="user">
-									</figure>
-									<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-									<blockquote>
-										<p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-									</blockquote>
-								</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-money"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Pricing Strategy</a></h3>
+								<p>We leverage industry-leading pricing analytics to optimize top-line performance and accelerate organic growth.</p>
 							</div>
 						</div>
 					</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-truck"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Supply Chain</a></h3>
+								<p>Our advanced SCMO services increase transparency and ensure fast time-to-value insights to help you manage your bottom line.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-seo-and-web"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Business Intelligence</a></h3>
+								<p>Our bespoke BI solutions are technology-agnostic and crafted for your business, ensuring you have the right tools to take action.</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-md-12 text-center animate-box">
+						<p><a class="btn btn-primary btn-lg btn-learn" href="#">View More <i class="icon-arrow-right"></i></a></p>
+					</div> -->
 				</div>
 			</div>
 		</div>
-	</div> -->
 
 	<div id="opportunity-form">
-	<div id="colorlib-consult">
-		<!-- <div class="video colorlib-video" style="background-image: url(images/video.jpg);" data-stellar-background-ratio="0.5">
-		</div> -->
-		<div class="choose choose-form animate-box">
-			<div class="colorlib-heading">
-				<h2>Free Opportunity Assessment</h2>
-				<p>To learn more about the opportunities we can help you discover, complete the form below:</p>
+		<div id="colorlib-consult">
+			<!-- <div class="video colorlib-video" style="background-image: url(images/video.jpg);" data-stellar-background-ratio="0.5">
+			</div> -->
+			<div class="choose choose-form animate-box">
+				<div class="colorlib-heading">
+					<h2>Free Opportunity Assessment</h2>
+					<p>We provide free discovery assessments to determine how much value we can deliver to your business. 
+					To learn more, complete the form below:</p>
+				</div>
+				<form action="https://formspree.io/ContactUs@FirstDiscoveryConsulting.com" method="POST">
+					<div class="row form-group">
+						<div class="col-md-6">
+							<!-- <label for="fname">First Name</label> -->
+							<input type="text" id="fname" class="form-control" placeholder="Your Name">
+						</div>
+						<div class="col-md-6">
+							<input type="text" id="email" class="form-control" placeholder="Preferred Email Address">
+						</div>
+					</div>
+
+					<div class="row form-group">
+						<div class="col-md-6">
+							<input type="text" id="companyName" class="form-control" placeholder="Company Name">
+						</div>
+						<div class="col-md-6">
+							<input type="text" id="industry" class="form-control" placeholder="Industry (e.g., HVAC Supplies)">
+						</div>
+					</div>
+
+					<br>
+					<h3 id="formHeader">Tell Us More About Your Company:</h3>
+
+					<div class="row form-group">
+						<div class="col-md-12">
+							<input type="text" id="desiredServices" class="form-control" placeholder="Let us know which services you're interested in (e.g., Pricing Strategy)">
+							<!-- <label for="desiredServices">Select all services in which you are interested:</label>
+							<select multiple class="form-control" id="desiredServices">
+								<option>Pricing Strategy</option>
+								<option>Supply Chain</option>
+								<option>Business Intelligence</option>
+							</select> -->
+						</div>
+					</div>
+
+					<div class="row form-group">
+						<div class="col-md-12">
+							<!-- <label for="message">Message</label> -->
+							<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Provide any additional information about your company that you are willing to share at this time (e.g., order in the B2B selling chain, number of annual transactions, number of product SKUs in portfolio)"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Send Message" class="btn btn-primary">
+					</div>
+
+				</form>	
 			</div>
-			<form action="https://formspree.io/dancombs93@gmail.com" method="POST">
-				<div class="row form-group">
-					<div class="col-md-6">
-						<!-- <label for="fname">First Name</label> -->
-						<input type="text" id="fname" class="form-control" placeholder="Firstname">
-					</div>
-					<div class="col-md-6">
-						<!-- <label for="lname">Last Name</label> -->
-						<input type="text" id="lname" class="form-control" placeholder="Lastname">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<!-- <label for="email">Email</label> -->
-						<input type="text" id="email" class="form-control" placeholder="Email Address">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<!-- <label for="subject">Subject</label> -->
-						<input type="text" id="subject" class="form-control" placeholder="Message Subject">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<!-- <label for="message">Message</label> -->
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Tell Us More About Your Company"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
-				</div>
-
-			</form>	
 		</div>
 	</div>
-	</div>
 
-	<!-- <div id="colorlib-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center colorlib-heading">
-					<h2>Recent Post</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="blog-featured animate-box">
-						<a href="blog.html"><img class="img-responsive" src="images/blog-1.jpg" alt=""></a>
-						<h2><a href="blog.html">Child Abuse Cases Are Our First Priority</a></h2>
-						<p class="meta"><span>Jan 5, 2017</span> | <span>3 Comments</span></p>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however</p>
+		<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4>FirstDiscovery</h4>
+						<p>We're in the business of earning you money.</p>
 					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<div class="blog-entry">
-								<a href="blog.html" class="thumb"><img class="img-responsive" src="images/blog-2.jpg" alt=""></a>
-								<div class="desc">
-									<h3><a href="blog.html">Family Law Is Now On Court</a></h3>
-									<p class="meta"><span>Jan 5, 2017</span> | <span>3 Comments</span></p>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-12 animate-box">
-							<div class="blog-entry">
-								<a href="blog.html" class="thumb"><img class="img-responsive" src="images/blog-3.jpg" alt=""></a>
-								<div class="desc">
-									<h3><a href="blog.html">Family Law Is Now On Court</a></h3>
-									<p class="meta"><span>Jan 5, 2017</span> | <span>3 Comments</span></p>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-12 animate-box">
-							<div class="blog-entry">
-								<a href="blog.html" class="thumb"><img class="img-responsive" src="images/blog-1.jpg" alt=""></a>
-								<div class="desc">
-									<h3><a href="blog.html">Family Law Is Now On Court</a></h3>
-									<p class="meta"><span>Jan 5, 2017</span> | <span>3 Comments</span></p>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-3">
+						<h4>Navigation</h4>
+						<ul class="colorlib-footer-links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#services">Services</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 
-	<!-- <div id="colorlib-about">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center colorlib-heading">
-					<h2>Our Team</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<div class="col-md-3">
+						<h4>Contact Information</h4>
+						<ul class="colorlib-footer-links">
+							<li>6 Strawberry Street, <br> Philadelphia, PA 19106</li>
+							<li><a href="mailto:ContactUs@FirstDiscoveryConsulting.com">ContactUs@FirstDiscovery.com</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3">
+						<h4>Opening Hours</h4>
+						<ul class="colorlib-footer-links">
+							<li>Mon - Thu: 9:00 - 21 00</li>
+							<li>Fri 8:00 - 21 00</li>
+							<li>Sat 9:30 - 15: 00</li>
+						</ul>
+					</div>
+
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-4 text-center animate-box" data-animate-effect="fadeIn">
-					<div class="colorlib-staff">
-						<img src="images/MyWorkMatters Headshot.jpg" alt="Template">
-						<h3>Dan Combs</h3>
-						<strong class="role">Founder, Pricing Strategist</strong>
+
+				<div class="row copyright">
+					<div class="col-md-12 text-center">
 						<p>
-							Dan is a Strategic Pricing Manager in Elsevier’s Clinical Solutions business. 
-							He has an extensive background in B2B and B2C pricing and has executed pricing strategies for marketplace consumer products and enterprise technology solutions. 
-							He has worked across the pricing lifecycle from market research and price structuring to execution and operations. 
-							Dan received his B.S. in Chemical Engineering from Penn State University.
+							<small class="block">&copy; 2018 FirstDiscovery. All Rights Reserved.</small> 
+							<small class="block">Contributions From: <a href="https://colorlib.com/" target="_blank">Colorlib</a></small> 
+							<small class="block">Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
 						</p>
-						<ul class="colorlib-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center animate-box" data-animate-effect="fadeIn">
-					<div class="colorlib-staff">
-						<img src="images/DebLee Headshot.jpg" alt="Template">
-						<h3>Deb Lee</h3>
-						<strong class="role">Chief Data Strategist</strong>
 						<p>
-								Deb is a consultant in Thorogood Associates' BI and Analytics practice. 
-								She specializes in developing bespoke technology solutions for consumer product companies and has a strong background in end-to-end BI solution design. 
-								Her strengths include database warehousing, systems integration, and user acceptance testing. 
-								Deb received her Masters in Biomedical Engineering from Penn State University.
+							<ul class="colorlib-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							</ul>
 						</p>
-						<ul class="colorlib-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4 text-center animate-box" data-animate-effect="fadeIn">
-					<div class="colorlib-staff">
-						<img src="images/images/other_person.jpg.jpg" alt="Template">
-						<h3>Other Person</h3>
-						<strong class="role">Additional Team Member</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-						<ul class="colorlib-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<div id="footer">
-
-	</div>
-
-	<!-- <footer id="colorlib-footer" role="contentinfo">
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-3 colorlib-widget">
-					<h4>FirstDiscovery</h4>
-					<p>Making an impact with targeted analytics.</p>
-				</div>
-				<div class="col-md-3 col-md-push-1">
-					<h4>Navigation</h4>
-					<ul class="colorlib-footer-links">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-3 col-md-push-1">
-					<h4>Contact Information</h4>
-					<ul class="colorlib-footer-links">
-						<li>6 Strawberry Street, <br> Philadelphia, PA 19106</li>
-						<li><a href="tel://2156803958">+1 215.680.3958</a></li>
-						<li><a href="mailto:info@yoursite.com">ContactUs@FirstDiscovery.com</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-3 col-md-push-1">
-					<h4>Opening Hours</h4>
-					<ul class="colorlib-footer-links">
-						<li>Mon - Thu: 9:00 - 21 00</li>
-						<li>Fri 8:00 - 21 00</li>
-						<li>Sat 9:30 - 15: 00</li>
-					</ul>
-				</div>
 
 			</div>
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2018 FirstDiscovery. All Rights Reserved.</small> 
-						<small class="block">Created By: <a href="https://colorlib.com/" target="_blank">Colorlib</a></small> 
-						<small class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p>
-						<ul class="colorlib-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</footer> -->
+		</footer>
 	</div>
 
 	<div class="gototop js-top">
@@ -603,6 +328,26 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<!-- <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+	<script>
+		$('#marketingVideo').click(function () {
+			var src = 'https://www.youtube.com/embed/K23bo7XnpVc';
+			$('#marketingVideo').modal('show');
+			$('#marketingVideo iframe').attr('src', src);
+		});
+
+		$('#marketingVideo').on('hidden.bs.modal', function () {
+    		$('#myModal iframe').removeAttr('src');
+		});
+
+	</script>
+
+	<script>
+		$("#myModal").on('hidden.bs.modal', function (e) {
+			$("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+		});
+	</script>  -->
 
 	</body>
 </html>
