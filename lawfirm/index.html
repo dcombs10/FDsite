@@ -50,6 +50,20 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<!-- jQuery CDN to reuse 'header' and 'footer' partials -->
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  			crossorigin="anonymous">
+	</script>
+
+	<!-- jQuery script to load 'header' and 'footer' partials -->
+	<script>
+		$(function() {
+			$("#footer").load("footer.html");
+		});
+	</script>
+
+
 	</head>
 	<body>
 		
@@ -69,7 +83,7 @@
 							<li class="has-dropdown">
 								<a href="services.html">Services</a>
 								<ul class="dropdown">
-									<li><a href="#">Pricing Strategy</a></li>
+									<li><a href="pricing.html">Pricing Strategy</a></li>
 									<li><a href="#">Supply Chain & Logistics</a></li>
 									<li><a href="#">Analytics</a></li>
 									<li><a href="#">Business Intelligence</a></li>
@@ -501,7 +515,11 @@
 		</div>
 	</div> -->
 
-	<footer id="colorlib-footer" role="contentinfo">
+	<div id="footer">
+
+	</div>
+
+	<!-- <footer id="colorlib-footer" role="contentinfo">
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 colorlib-widget">
@@ -557,7 +575,7 @@
 			</div>
 
 		</div>
-	</footer>
+	</footer> -->
 	</div>
 
 	<div class="gototop js-top">
