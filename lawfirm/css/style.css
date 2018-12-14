@@ -1349,3 +1349,12 @@ select {
   .iframe-container-4x3 {
     padding-top: 75%;
   }
+
+  /* left align text in forms when needed */
+  #desiredServicesHelpText {
+    text-align: left;
+  }
+
+  #additionalInfo {
+    text-align: left;
+  }
