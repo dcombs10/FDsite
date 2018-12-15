@@ -625,6 +625,8 @@ select {
     font-weight: 400; }
     .services h3 a {
       color: #31486f; }
+    .services h3 a:hover {
+      cursor: pointer; }
   .services .icon {
     text-align: center;
     margin: 0 auto;
