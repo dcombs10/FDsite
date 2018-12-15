@@ -338,6 +338,20 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+	<script>
+		$("#marketingVideo").on('hidden.bs.modal', function (e) { 
+			$("#marketingVideo iframe").attr("src", $("#marketingVideo iframe").attr("src")); 
+		});
+
+		$("#pricingStrategy").on('hidden.bs.modal', function (e) { 
+			$("#pricingStrategy iframe").attr("src", $("#pricingStrategy iframe").attr("src")); 
+		});
+
+		$("#supplyChain").on('hidden.bs.modal', function (e) { 
+			$("#supplyChain iframe").attr("src", $("#supplyChain iframe").attr("src")); 
+		});
+	</script>
+
 	</body>
 </html>
 
