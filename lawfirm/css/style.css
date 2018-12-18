@@ -91,16 +91,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Playfair Display", Georgia, serif; }
   .colorlib-nav #colorlib-logo a {
     color: #7e0606; }
-      .colorlib-nav #colorlib-logo a span:nth-of-type(2n +1) {
+      .colorlib-nav #colorlib-logo a span {
         font-size: 1.2em;
       } 
-      .colorlib-nav #colorlib-logo a span:nth-of-type(1) {
-        color: rgba(0, 0, 0, 0.7);
-      } 
-      .colorlib-nav #colorlib-logo a span:nth-of-type(2) {
-        color: rgba(0, 0, 0, 0.7);
-      } 
-
+      
 .colorlib-nav a {
   padding: 5px 10px;
   color: #000; }
